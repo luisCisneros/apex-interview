@@ -1,0 +1,48 @@
+18:29:25.488 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 1. Adopt one puppy ==========
+18:29:25.497 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:29:31.441 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:29:31.455 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:29:40.282 [DEBUG] stepdefs.PuppiesSteps @ theMessageShouldBeDisplayed() - Actual message: Thank you for adopting a puppy!
+18:29:41.593 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 2. Adopt two puppies ==========
+18:29:41.593 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:29:46.672 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:29:46.685 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:29:56.535 [DEBUG] stepdefs.PuppiesSteps @ theMessageShouldBeDisplayed() - Actual message: Thank you for adopting a puppy!
+18:29:57.978 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 4. Two puppies adoption correct amount ==========
+18:29:57.980 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:30:03.226 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:30:03.237 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:30:09.624 [DEBUG] stepdefs.PuppiesSteps @ totalSumOfTheCostOfThePuppiesMustBeDisplayedOnTheShoppingCartPage() - Sum was: 57.94
+18:30:10.830 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 6. Puppies list pagination ==========
+18:30:10.832 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:30:15.368 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:30:15.378 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:30:26.078 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 7. Puppies list displayed correctly ==========
+18:30:26.078 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:30:30.017 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:30:30.027 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:30:32.458 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Brook]	[Breed: Golden Retriever]	[Sex: Female]
+18:30:32.624 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Hanna]	[Breed: Golden Retriever]	[Sex: Female]
+18:30:32.772 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Maggie Mae]	[Breed: Golden Retriever]	[Sex: Female]
+18:30:32.922 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Ruby Sue]	[Breed: Golden Retriever]	[Sex: Female]
+18:30:33.910 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Sparky]	[Breed: Austrailian Cattle Dog (Blue Heeler)]	[Sex: Male]
+18:30:34.054 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Spud]	[Breed: Austrailian Cattle Dog (Blue Heeler)]	[Sex: Male]
+18:30:34.223 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Tipsy]	[Breed: Austrailian Cattle Dog (Blue Heeler)]	[Sex: Male]
+18:30:34.367 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Topsy]	[Breed: Austrailian Cattle Dog (Blue Heeler)]	[Sex: Male]
+18:30:35.040 [DEBUG] stepdefs.PuppiesSteps @ eachPuppyRecordShouldDisplayTheNameBreedAndSex() - [Name: Twinkie]	[Breed: Boxer/Rat Terrier Mix]	[Sex: Female]
+18:30:41.279 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 9. Empty shopping cart ==========
+18:30:41.279 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:30:44.691 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:30:44.698 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:30:50.002 [DEBUG] stepdefs.PuppiesSteps @ clickOnButtonOnPage() - Inside IF block
+18:30:50.816 [DEBUG] stepdefs.PuppiesSteps @ theMessageShouldBeDisplayed() - Actual message: Your car is currently empty
+18:30:51.509 [INFO] stepdefs.Hooks @ setUp() - ========== SCENARIO: 10. Page menu ==========
+18:30:51.509 [INFO] org.example.WebDriverManager @ setUpDriver() - Properties file located at: src/test/resources/config.properties
+18:30:54.501 [INFO] org.example.WebDriverManager @ setUpDriver() - Implicitly wait timeout set to 5 seconds
+18:30:54.506 [INFO] org.example.WebDriverManager @ setUpDriver() - All cookies deleted
+18:30:55.611 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Adopt a Puppy
+18:30:55.654 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Learn
+18:30:55.715 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Animal Shelters
+18:30:55.764 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Classifieds
+18:30:55.802 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Message Boards
+18:30:55.841 [DEBUG] stepdefs.PuppiesSteps @ theFollowingMenuItemsShouldBeDisplayed() - Menu item: Pet News
